@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Static Comp 2</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="styles.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="normalize.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns" crossorigin="anonymous">
+    <script src="main.js"></script>
+</head>
+<body>
+    <div class="wrapper">
+        <aside class="aside">
+            <section class="profile">
+                <img class="profile-pic" src="images/B-rock.jpg" alt="My President">
+                <a class="profile-text" href="#">Barack Obama<i class="item fas fa-caret-down"></i></a>
+            </section>
+            <ul class="side-container">
+              <h5 class="side-title">Main</h5>
+              <li><i class="item fas fa-home"></i><a class="text-color" href="#">HOME</a></li>
+              <li><i class="item fas fa-briefcase"></i><a class="text-color" href="#">JOBS</a></li> 
+              <li><i class="item fas fa-file-alt"></i><a class="text-color" href="#">RESUMES</a></li> 
+              <li><i class="item fas fa-clipboard-list"></i><a class="text-color" href="#">TASKS</a></li> 
+              <li><i class="item fas fa-calendar-alt"></i><a class="text-color" href="#">CALENDAR</a></li>   
+            </ul>
+            <ul class="side-container">
+              <h5 class="side-title">Admin</h5>  
+              <li><i class="item fas fa-user-friends"></i><a class="text-color" href="#">USERS</a></li>
+              <li><i class="item fas fa-map"></i><a class="text-color" href="#">LOCATIONS</a></li> 
+              <li><i class="item fas fa-bezier-curve"></i><a class="text-color" href="#">WORKFLOWS</a></li> 
+              <li><i class="item fas fa-newspaper"></i><a class="text-color" href="#">JOB BOARDS</a></li> 
+              <li><i class="item fas fa-share-alt"></i><a class="text-color" href="#">SOCIAL</a></li>   
+            </ul>
+            <ul class="side-container">
+              <h5 class="side-title">Categories</h5>  
+              <li><i class="item check-yellow fas fa-check-square"></i><a class="text-color" href="#">Administrative</a></li>
+              <li><i class="item check-blue fas fa-square"></i><a class="text-color" href="#">Design</a></li> 
+              <li><i class="item check-red fas fa-square"></i><a class="text-color" href="#">Executive</a></li> 
+              <li><i class="item check-green fas fa-square"></i><a class="text-color" href="#">Human Resources</a></li>   
+            </ul>
+        </aside>
+        <main>
+            <header class="header">
+                <a href="#" class="header-item"><i class="fas fa-bars icon"></i></a>
+                <input class="input header-input" type="search" placeholder="search for a job, task or resume">
+                <a href="#" class="header-item"><i class="fas fa-user-plus"></i></a>
+                <a href="#" class="header-item"><i class="fas fa-calendar-alt"></i></a>
+                <a href="#" class="header-item"><i class="fas fa-th"></i></a>
+            </header>
+            <section class="job">
+                <div class="job-information"> 
+                    <h2 class="job-title">Commander-in-Chief</h2>
+                    <p class="job-location"><i class="fas fa-map-marker-alt">Washington, DC 20500</i><sup>.</sup> <span class="job-post"><a>Preview this post</a></span></p>
+                </div>
+                <nav class="job-menu">
+                    <button class="button menu-buttons menu-item" href="#"><i class="fas green-circle fa-circle"></i>OPEN</button>
+                    <a class="menu-item" href="#"><i class="btn fas fa-bookmark"></i></a>
+                    <a class="menu-item" href="#"><i class="btn fas fa-pencil-alt"></i></a>
+                    <a class="menu-item" href="#"><i class="btn fas fa-trash-alt"></i></a>
+                </nav>
+                <section class="job-navigation">
+                    <nav class="job-navigation-list">
+                     <a class="item job-item job-item-active" href="#">SUMMARY</a> 
+                     <a class="item job-item" href="#">APPLICANTS</a> 
+                     <a class="item job-item" href="#">JOB BOARD</a> 
+                     <a class="item job-item" href="#">INTERVIEWS</a> 
+                     <a class="item job-item" href="#">ACTIVITY</a> 
+                     <a class="item job-item" href="#">BROADCAST</a> 
+                     <a class="item job-item" href="#">NOTIFICATIONS</a> 
+                    </nav>
+                </section>
+            </section>
+            <section class="data">
+                <div>
+                    <div class="meters">
+                        <svg viewbox="0 0 36 36" class="circle-chart">
+                            <path class="circle" 
+                                d="M18 2.0845 
+                                a 15.9155 15.9155 0 0 1 0 31.831 
+                                a 15.9155 15.9155 0 0 1 0 -31.831"
+                            />
+                            <path class="circle circle-green" stroke-dasharray="80, 100" 
+                                d="M18 2.0845 
+                                a 15.9155 15.9155 0 0 1 0 31.831 
+                                a 15.9155 15.9155 0 0 1 0 -31.831"
+                            />
+                            <text x="8" y="20" font-family="sans-serif" 
+                            font-size="8px" font-weight="200"
+                            fill="#3d4859">3,245</text>
+                            <text x="8" y="25" font-weight="200" font-family="sans-serif" font-size="3px" fill="rgb(127, 138, 155) ">APPLICANTS</text>
+                        </svg>
+                        <svg viewbox="0 0 36 36" class="circle-chart">
+                            <path class="circle" 
+                                d="M18 2.0845 
+                                a 15.9155 15.9155 0 0 1 0 31.831 
+                                a 15.9155 15.9155 0 0 1 0 -31.831"
+                            />
+                            <path class="circle circle-blue" stroke-dasharray="40, 100" 
+                                d="M18 2.0845 
+                                a 15.9155 15.9155 0 0 1 0 31.831 
+                                a 15.9155 15.9155 0 0 1 0 -31.831"
+                            />
+                            <text x="8" y="20" font-family="sans-serif" font-size="8px" font-weight="200"
+                            fill="#3d4859">1,546</text>
+                            <text x="8" y="25" font-family="sans-serif" color="#677289"font-weight="200"
+                            font-size="3px" fill="rgb(127, 138, 155)">INTERVIEWS</text>
+                         </svg>
+                         <svg viewbox="0 0 36 36" class="circle-chart">
+                             <path class="circle"  
+                                 d="M18 2.0845 
+                                a 15.9155 15.9155 0 0 1 0 31.831 
+                                a 15.9155 15.9155 0 0 1 0 -31.831"
+                            />
+                            <path class="circle circle-purple" stroke-dasharray="70, 100" 
+                                d="M18 2.0845 
+                                a 15.9155 15.9155 0 0 1 0 31.831 
+                                a 15.9155 0 0 1 0 -31.831"
+                            />
+                            <text x="8" y="20" font-family="sans-serif" font-size="8px" font-weight="200"
+                            fill="#3d4859">912</text>
+                            <text x="8" y="25" font-family="sans-serif" font-weight="200"
+                            font-size="3px" fill="rgb(127, 138, 155)">FORWARDS</text>
+                        </svg>              
+                    </div>
+                    <section class="data-buttons">
+                        <button class="data-button">TOTALS<sup>.</sup> Out of 5,231 views</button>
+                    </section>
+                </div>
+                <div class="graph">
+                    <img src="images/bar-graph.png" class="bar-graph">
+                    <section class="data-buttons" >
+                    <button class="data-button">APPLICANTS/DAY</button>
+                  </section>
+                </div>        
+            </section> 
+            <hr class="hr">
+            
+            <section class="table-container">    
+                <table class="table">
+                    <thead class="table-head">
+                          <th colspan="2" class="job-description-text">JOB DESCRIPTION  
+                          <button class="edit-button"><i class="fas fa-pencil-alt"></i>EDIT</button></th>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="table-text2">POSITION TITLE</td>
+                            <td class="table-text">President of the United States</td>
+                        </tr>
+                        <tr>
+                            <td class="table-text2">LOCATION</td>
+                            <td class="table-text">Washington, DC</td>
+                        </tr>
+                        <tr>
+                            <td class="table-text2">EMPLOYMENT TYPE</td>
+                            <td class="table-text">Full-time</td>
+                        </tr>
+                        <tr>
+                            <td class="table-text2">EXPERIENCE</td>
+                            <td class="table-text">Senior-level</td>
+                        </tr>
+                        <tr>
+                            <td class="table-text2">STATUS</td>
+                            <td class="table-text">Very Open</td>
+                        </tr>
+                        <tr>
+                            <td class="table-text2">DESCRIPTION</td>
+                            <td class="table-text">As President of the United States, the most important aspect of the role is to curb climate change, avoid World War III, and ensure the sovereignty and security of our citizens. </td>
+                        </tr>
+                        <tr class="table-dividers table-image-row" >
+                            <td class="table-text2">HIRING LEAD</td>
+                            <td class="table-text table-image"><img class="hiring-lead-img" src="images/MrBean2.jpg" alt="Mr. Bean">Electoral College</td>
+                        </tr>
+                        <tr>
+                            <td class="table-text2">APPROVED SALARY</td>
+                            <td class="table-text"><strong>$400,000</strong></td>
+                        </tr>
+                    </tbody>
+                </table>
+                <div class="social">
+                    <div>
+                        <button class="social-button social-facebook"><i class="fab fa-facebook-f"></i>Post to Facebook</button>
+                        <button class="social-button social-twitter"><i class="fab fa-twitter"></i>Tweet this Job</button>
+                        <button class="social-button social-linkedin"><i class="fab fa-linkedin"></i>Post to LinkedIn</button>
+                    </div>
+                    <div class="link-job">
+                        <h4 class="link-description"><i class="fas fa-globe-africa"></i>Link to this Job</h4>
+                        <p>I've never really been a big fan of the Lorem Ipsum text. I wish there was something else I could use.</p>
+                        <input class="link-input" type="text" value="http://www.google.com" readonly>
+                        <button class="copy-button">Copy</button>
+                    </div>
+                    <div class="link-job">
+                        <h4 class="link-description"><i class="fas fa-newspaper"></i>Use the Button Widget</h4>
+                        <p> Seriously,I've never really been a big fan of the Lorem Ipsum text. Just not my preferred method.</p>
+                        <input class="link-input" type="text" value="http://www.google.com" readonly>
+                        <button class="copy-button">Copy</button>
+                    </div>
+                    <div class="link-job">
+                        <h4 class="link-description"><i class="fas fa-paper-plane"></i>Upload Resumes by Email</h4>
+                        <p> I guess it started since childhood. I was playing in the park once when I was bit by a Lorem Ipsum.</p>
+                        <input class="link-input" type="text" value="http://www.google.com" readonly>
+                        <button class="copy-button">Copy</button>
+                    </div>
+                </div>  
+            </section>
+        </main>
+    </div>
+</body>
+</html>
